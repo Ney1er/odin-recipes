@@ -1,19 +1,47 @@
 body {
-    background: linear-gradient(to bottom, burlywood, #ffaa49)
+    background-color: blanchedalmond;
+
 }
 
-.content {
-    color: lemonchiffon;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-ol {
+h1, h2 {
+    font-family: sans-serif;
     text-align: center;
-    list-style-position: inside;
+    
 }
 
+p {
+    text-align: center;
+    font-size: large;
+    margin: 10px;
+}
 
+img {
+    display: block;
+    margin:auto;
+}
 
+ul, ol {
+    list-style-position: inside;
+    text-align: center;
+    font-size: large;
+    padding: 0;
+    margin: 30px;
+  }
 
+li {
+    padding: 10px 0;
+}
+
+#bbutton {
+    border-style: solid;
+    border-color: rgb(240, 214, 177);
+    padding: 7px;
+    border-radius: 50px;
+    font-size: larger;
+    font-style: italic;
+    font-family: serif;
+}
+
+#bbutton:hover {
+    background-color: rgb(240, 214, 177);
+}
